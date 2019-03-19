@@ -32,6 +32,7 @@ public class Logic0402 {
 //		Scanner scan = new Scanner(System.in);
 //		int n = scan.nextInt();
 //		
+	
 //		Logic0402 data= new Logic0402();
 //		data.buatMatrik(n);
 //		
