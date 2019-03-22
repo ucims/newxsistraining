@@ -25,19 +25,6 @@ public class Soal01 {
 		
 		for (int i = 0; i < this.baris; i++) { 	//before jumlah
 			for (int j = 0; j < this.kolom; j++) {
-//				if (i == 0) {
-//					System.out.print(nilai+2 +"\t");
-//					nilai+=2;
-//				} else if(i == 1) {
-//					System.out.print(nilai2 + " \t");
-//					nilai2+=2;
-//				} else if (i == 2) {
-//					System.out.print(nilai +"\t");
-//					nilai-=2;
-//				} else if(i == 3) {
-//					System.out.print(nilai2-2 + "\t");
-//					nilai2-=2;
-//				}
 				if (i == 0) {
 					this.deret[i][j] = Integer.toString(this.nilai3+1);
 					nilai3+=2;
@@ -52,8 +39,7 @@ public class Soal01 {
 					nilai4-=2;
 				} else {
 					this.deret[i][j] = Integer.toString(38);
-				}
-				
+				}				
 			}
 			this.nilai3++;
 		}

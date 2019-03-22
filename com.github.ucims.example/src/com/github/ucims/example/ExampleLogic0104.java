@@ -15,8 +15,7 @@ public class ExampleLogic0104 {
 					System.out.print("#");
 				} else {
 					System.out.print(" ");
-				}
-				
+				}				
 			}
 			System.out.println();
 		}
