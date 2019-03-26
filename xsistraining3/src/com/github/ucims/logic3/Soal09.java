@@ -17,9 +17,10 @@ public class Soal09 {
 			for (int j2 = 0; j2 < i; j2++) {			
 				
 				System.out.print(a + " ");	
+				
 								
 			}				
-			a++;			
+			a++;	
 		}
 	}
 	

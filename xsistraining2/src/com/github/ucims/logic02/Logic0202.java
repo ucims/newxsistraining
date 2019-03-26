@@ -34,7 +34,7 @@ public class Logic0202 {
 		for (int i = 0; i < this.row; i++) {
 			for (int j = 0; j < this.row; j++) {
 				if (this.duaDimensi[i][j] == null) {
-					System.out.print("\t");
+					System.out.print("*");
 				} else {
 					System.out.print(this.duaDimensi[i][j]);
 				}	

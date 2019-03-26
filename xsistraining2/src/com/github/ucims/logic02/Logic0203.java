@@ -48,6 +48,7 @@ public class Logic0203 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		Logic0203 data = new Logic0203();
 		data.setColRow(9);
 		data.cetakDuaDimensi();

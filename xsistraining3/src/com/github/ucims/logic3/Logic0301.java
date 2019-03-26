@@ -48,7 +48,7 @@ public class Logic0301 {
 		nilaiA = 0;
 		nilaiB = 0;
 		nilaiC = 0;
-		System.out.println("\nJumlah angka " + jumlah);
+//		System.out.println("\nJumlah angka " + jumlah);
 		for (int i = 0; i < jumlah; i++) {
 			hasil = nilaiA + nilaiB + nilaiC;
 			nilaiA = nilaiB;
@@ -56,7 +56,7 @@ public class Logic0301 {
 			nilaiC = hasil;			
 		}
 		
-		System.out.print(hasil);
+		System.out.print("Hasil :" + hasil);
 	}
 	
 	
@@ -67,7 +67,7 @@ public class Logic0301 {
 		System.out.print("Masukan jumlah nilai >> ");
 		int n = scan.nextInt();
 		
-//		data.fibonaciDuaJumlah(n);
+		data.fibonaciDuaJumlah(n);
 //		data.fiboJumlahTiga(n);
 		data.fibonaciDua(n);
 	}

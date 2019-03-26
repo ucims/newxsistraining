@@ -24,7 +24,7 @@ public class Soal12 {
 		hasil = 0;
 		hasil = angkaA[index];
 		
-		System.out.print(angkaA[index]);
+//		System.out.print(angkaA[index]);
 		
 		for (int i = index; i >= 0; i--) {
 			System.out.print(angkaA[i] + " ");

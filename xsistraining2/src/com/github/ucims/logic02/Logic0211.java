@@ -24,7 +24,8 @@ public class Logic0211 {
 		
 		for (int i = 0; i < this.row; i++) {
 			for (int j = 0; j < this.cols; j++) {
-				this.duaDimensi[i][j] = "*"; //Integer.toString("*")
+				this.duaDimensi[i][j] = angka +"*"; //Integer.toString("*")
+				this.angka++;
 			}
 			
 			this.angka++;			
